@@ -1,0 +1,12 @@
+{
+  "name": "{{{name}}}",
+  "components": [
+    {{#components}}
+    {
+      "type": "{{{type}}}",
+      "template": "{{{template}}}",
+      "name": "{{{name}}}",
+      "path": "{{{path}}}"
+    }{{^last}},{{/last}}
+    {{/components}}]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create Solution</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="./css/dialog.css"  rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <section class="form">
+        <input class="form__input" type="hidden" name="solutionTemplateName" value="default">
+        <input class="form__input" type="hidden" name="withProject" value="true">
+        <input class="form__input" type="hidden" name="withPrototype" value="true">
+        <div class="form__input-group">
+          <input id="error-input" disabled class="form__input form__input--file" type="text"/>
+          <input id="solutionProjectName" class="form__input form__input-bold" type="text" name="name" value="" placeholder="Solution name" />
+        </div>
+        <div class="form__input-group">
+          <input disabled class="form__input form__input--file" type="text" name="path" value=""/>
+          <button class="form__input form__input--button box">Edit path</button>
+        </div>
+        <div class="spacer"></div>
+        <!--BACKEND-->
+        <div class="form__group" id="backendTemplates">
+          <input class="form__toggle-input" checked type="checkbox" name="backend" data-component-type="backend" data-component-info="enabled">
+          <label class="form__toggle-input-label"></label>
+          <div class="box">
+            <div class="form__project-part">
+              <figure class="form__icon form__icon-backend"></figure>
+              <label class="form__label">backend</label>
+              <div class="selector">
+                <select class="form__select form__select--dropdown" name="backendTemplateName" data-component-type="backend" data-component-info="template"></select>
+                <div class="form__template-input">
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--left"></a>
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--right"></a>
+                </div>
+              </div>
+            </div>
+            <div class="form__template">              
+              <div class="form__template-preview"></div>
+            </div>
+          </div>
+        </div>
+        <!--MOBILE-->
+        <div class="form__group" id="mobileTemplates">
+          <input class="form__toggle-input" checked type="checkbox" name="mobile" data-component-type="mobile" data-component-info="enabled">
+          <label class="form__toggle-input-label"></label>
+          <div class="box">
+            <div class="form__project-part">
+              <figure class="form__icon form__icon-mobile"></figure>
+              <label class="form__label">mobile</label>
+              <div class="selector">
+                <select class="form__select form__select--dropdown" name="mobileTemplateName" data-component-type="mobile" data-component-info="template"></select>
+                <div class="form__template-input">
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--left"></a>
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--right"></a>
+                </div>
+              </div>
+            </div>
+            <div class="form__template">              
+              <div class="form__template-preview"></div>
+            </div>
+          </div>
+        </div>
+        <!--WEB-->
+        <div class="form__group" id="webTemplates">
+          <input class="form__toggle-input" checked type="checkbox" name="web" data-component-type="web" data-component-info="enabled">
+          <label class="form__toggle-input-label"></label>
+          <div class="box">
+            <div class="form__project-part">
+              <figure class="form__icon form__icon-web"></figure>
+              <label class="form__label">web</label>
+              <div class="selector">
+                <select class="form__select form__select--dropdown" name="webTemplateName" data-component-type="web" data-component-info="template"></select>
+                <div class="form__template-input">
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--left"></a>
+                  <a href="#" class="form__template-input-arrow form__template-input-arrow--right"></a>
+                </div>
+              </div>
+            </div>
+            <div class="form__template">              
+              <div class="form__template-preview"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button class="dialog__button dialog__button--cancel">Cancel</button>
+      <button class="dialog__button dialog__button--submit">Create</button>
+    </footer>
+    <script src="./js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="./js/dialog.js"></script>
+  </body>
+</html>

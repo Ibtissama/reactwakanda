@@ -1,0 +1,37 @@
+[
+  {
+    "taskName": "start",
+    "title": "Running React CLI App",
+    "type": "aggregate",
+    "dependencies": [
+      "package-install",
+      "npm-start"
+    ]
+  },
+  {
+    "taskName": "package-install",
+    "title": "Installing dependencies",
+    "type": "package",
+    "options": {
+      "action": "install",
+      "path": "{{componentPath}}",
+      "command": "npm install -d",
+      "args": []
+    },
+    "stateVerifier" : {
+    	"name" : "package"
+    }
+  },
+  
+  {
+    "taskName": "npm-start",
+    "title": "Starting the App",
+    "type": "package",
+    "options": {
+      "action": "start",
+      "path": "{{componentPath}}",
+      "command": "npm run start"
+      
+    }
+  }
+]

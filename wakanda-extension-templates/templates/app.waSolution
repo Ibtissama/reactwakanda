@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution>
+    {{#components}}
+    <project path="{{{componentPath}}}"/>
+    {{/components}}
+
+  <file path="./settings.waSettings">
+    <tag name="settings"/>
+  </file>
+  <file path="./directory.waDirectory">
+    <tag name="directory"/>
+  </file>
+</solution>

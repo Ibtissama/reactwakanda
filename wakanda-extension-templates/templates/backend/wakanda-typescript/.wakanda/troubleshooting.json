@@ -1,0 +1,70 @@
+{
+	"troubleshooting": {
+		"wakanda-typescript-app": {
+			"name": "Wakanda TypeScript",
+			"description": "Wakanda TypeScript application",
+			"icon": "data:image/png;base64,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",
+			"steps": {
+				"windows": [{
+					"name": "Install Node.js",
+					"dependency": "node",
+					"description": ["<h4>What is Node.js?</h4><p><strong>Node.js</strong> is a <strong>JavaScript</strong> runtime built on Chrome's V8 JavaScript engine that includes the <strong>npm</strong> package manager.</p>", "<h4>Installation</h4><p><a target=\"_blank\" href=\"https://nodejs.org\">Download <strong>Node.js</strong></a> and install it.</p><p><strong>You must restart Wakanda Studio after completing this step.</strong></p>"]
+				}, {
+					"name": "Install TypeScript",
+					"dependency": "typescript",
+					"description": [
+						"<h4>What is TypeScript?</h4><p><strong>TypeScript</strong> is a language for application-scale JavaScript. <strong>TypeScript</strong> adds optional types, classes, and modules to JavaScript.</p>",
+						"<h4>Installation</h4><p>To install TypeScript<strong></strong>, use the <strong>Node Package Manager (npm)</strong> that is provided by Node.js:</p><ol><li>Open the Terminal (start -> run: cmd.exe).</li><li><div>Run this command:</div><pre><code>npm install -g typescript</code></pre></li></ol>"
+					]
+				}, {
+					"name": "End",
+					"description": ["<h4>Additional Information</h4><p>If you have any further questions, please contact us at <a target=\"_blank\" href=\"mailto:support@wakanda.io\">support@wakanda.io</a>.</p>"]
+				}],
+				"mac": [{
+					"name": "Install Node.js",
+					"dependency": "node",
+					"description": ["<h4>What is Node.js?</h4><p><strong>Node.js</strong> is a <strong>JavaScript</strong> runtime built on Chrome's V8 JavaScript engine that includes the <strong>npm</strong> package manager.</p>", "<h4>Installation</h4><p><a target=\"_blank\" href=\"https://nodejs.org\">Download <strong>Node.js</strong></a> and install it.</p><p><strong>You must restart Wakanda Studio after completing this step.</strong></p>", "You installed Node.js, but Wakanda Studio has not found it? <a href='#/issues/4'>Solve this issue</a>"]
+				}, {
+					"name": "Install TypeScript",
+					"dependency": "typescript",
+					"description": [
+						"<h4>What TypeScript?</h4><p><strong>TypeScript</strong> is a language for application-scale JavaScript. <strong>TypeScript</strong> adds optional types, classes, and modules to JavaScript.</p>",
+						"<h4>Installation</h4><p>To install <strong>TypeScript</strong>, use the <strong>Node Package Manager (npm)</strong> that is provided by Node.js:</p><ol><li>Open the Terminal.</li><li><div>Run this command:</div><pre><code>npm install -g typescript</code></pre><p><strong>NOTE</strong>: If the <strong>NPM</strong> command <u>returns an error</u>, run: <pre><code>sudo npm install -g typescript</code></pre></li></ol>", "You installed Ionic, but Wakanda Studio has not found it? <a href='#/issues/backend/0'>Solve this issue</a>"
+					]
+				}, {
+					"name": "End",
+					"description": ["<h4>Additional Information</h4><p>If you have any further questions, please contact us at <a target=\"_blank\" href=\"mailto:support@wakanda.io\">support@wakanda.io</a>.</p>"]
+				}]
+			}
+		}
+	},
+	"issues": [{
+		"title": "Wakanda Studio has not detected my dependencies (node, npm, ionic, ...)",
+		"description": [
+			"<h4>Solution</h4><p>Wakanda Studio looks for your dependencies in your operating system's default folder. If you installed NPM, Node, or other software in a custom location, add the binary folder location in your Wakanda configuration:</p><ol><li>Open Wakanda Studio's <strong>Preferences</strong>.</li><li>In the <strong>General</strong> panel, go to the <strong>Environment variables</strong> section.</li><li>Insert the binary locations (without the binary name at the end) separated by a new line in the PATH field:<div><pre><code>/my/custom/path/one\n/my/custom/path/two</code></pre></div></li><li>Click on the <b>Check</b> button to check the dependencies in the Console.</li></ol>"
+		]
+	}, {
+		"title": "While running my application I could not log-in inside Wakanda Studio",
+		"description": [
+			"<h4>Solution</h4><p>If are able to log-in on a browser but you have troubles inside Wakanda Studio, try clicking these URLs <a href=\"http://127.0.0.1:8081/\">(1)</a> and <a href=\"http://127.0.0.1:8081/app/\">(2)</a> and then try re-opening all the application tabs.</p>"
+		]
+	}, {
+		"title": "The platform I'm looking for is not listed.",
+		"description": [
+			"<p>We support only iOS and Android for native mobile app development. For other platforms, like Windows Phone, you can create a web application with Wakanda and AngularJS.</p><p>Please contact us at <a target=\"_blank\" href=\"mailto:support@wakanda.io\">support@wakanda.io</a> and let us know which platform you need. We'll send you an email as soon an update is available.</p>"
+		]
+	}, {
+		"title": "npm returns a red error that starts with 'npm ERR! Error: EACCES...'.",
+		"description": [
+			"<h4>Solution</h4><p>This error is due to insufficient user permissions. If you are on Windows run the command prompt as an administrator. On MacOS run the same command in the terminal prefixed by 'sudo'.</p>",
+			"<h4>Example for MacOS</h4><p>Instead of</p><div><pre><code>npm install -g ionic</code></pre></div><p>try</p><div><pre><code>sudo npm install -g ionic</code></pre></div>"
+		]
+	}, {
+		"title": "npm returns a red error that starts with 'npm ERR! network connect ETIMEDOUT...'.",
+		"description": [
+			"<h4>Solution</h4><p>In most cases, you might be behind a proxy or have bad network settings.<br>If you are behind a proxy, please make sure that the npm 'proxy' config is set properly.</p>",
+			"<h4>Example</h4><p>In the command prompt/terminal run</p><div><pre><code>npm config set proxy http:<b>//proxy.company.com:8080</b>\nnpm config set https-proxy http:<b>//proxy.company.com:8080</b></code></pre></div><p>If you are working behind a proxy in a \"windows\" domain, add the domain name into the proxy url:</p><div><pre><code>npm config set proxy http:<b>//domain%5Cuser:password@proxy.company.com:8080</b>\nnpm config set https-proxy http:<b>//domain%5Cuser:password@proxy.company.com:8080</b></code></pre></div><p>You need to encode the backslash as an http uri string: <strong>%5C</strong></p>",
+			"<h4>Additional Information</h4><p>It could also be necessary to point the npm registry to the http source:</p><div><pre><code>npm config set registry \"http://registry.npmjs.org\"\nnpm config set strict-ssl false</code></pre></div>"
+		]
+	}]
+}

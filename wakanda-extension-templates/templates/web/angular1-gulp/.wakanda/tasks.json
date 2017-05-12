@@ -1,0 +1,60 @@
+[
+  {
+    "taskName": "start",
+    "title": "Running Angular1 App",
+    "type": "aggregate",
+    "dependencies": [
+      "package-install",
+      "npm-start"
+    ]
+  },
+  {
+    "taskName": "package-install",
+    "title": "Installing dependencies",
+    "type": "package",
+    "options": {
+      "action": "install",
+      "path": "{{componentPath}}",
+      "command": "npm install",
+      "args": []
+    },
+    "stateVerifier" : {
+    	"name" : "package"
+    }
+  },
+  {
+    "taskName": "npm-start",
+    "title": "Starting the App",
+    "type": "package",
+    "options": {
+      "action": "start",
+      "path": "{{componentPath}}",
+      "command": "npm run start",
+      "args": [
+        "--",
+        "--port",
+        "{{port}}",
+        "--livereloadPort",
+        "{{livereloadPort}}",
+        "--serverUrl",
+        "{{serverUrl}}"
+      ],
+      "variables": [
+        {
+          "name": "port",
+          "generator": "port",
+          "options": {
+            "port": 8000
+          }
+        },
+        {
+          "name": "livereloadPort",
+          "generator": "port",
+          "options": {
+            "port": 35729
+          }
+        }
+      ]
+    }
+  }
+]

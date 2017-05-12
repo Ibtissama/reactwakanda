@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create New Framework</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="./css/dialog.css"  rel="stylesheet">
+  </head>
+  <body>
+      <main>
+      <section class="form">
+       <div class="form__group">
+        <div class="box">
+            <div class="form__project-part">
+             Please Select an Element :
+            </div>
+            <div id="el-framwork" class="form__template">
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="form__group">
+             <div id="box">
+                  <div class="form__project-part" id="description">
+                  </div>
+                 <div id="el" class="form__template">
+                 </div>
+             </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <button class="dialog__button dialog__button--cancel" onclick="quitDialog()">Cancel</button>
+      <button class="dialog__button dialog__button--submit" onclick="execTask()">Generate</button>
+    </footer>
+    <script src="./js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="./js/framework.js"></script>
+  </body>
+</html>

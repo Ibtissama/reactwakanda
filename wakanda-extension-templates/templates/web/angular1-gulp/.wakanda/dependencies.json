@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"node": {
+			"name": "Node",
+			"text": "Install Node.JS",
+			"command": "node -v",
+			"troubleshooting": {
+				"mac": {
+					"app": "angular-app",
+					"step": 0
+				},
+				"windows": {
+					"app": "angular-app",
+					"step": 1
+				}
+			}
+		}
+	}
+}

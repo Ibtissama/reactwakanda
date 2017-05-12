@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"node": {
+			"name": "Node",
+			"command": "node -v",
+			"text": "Install Node.JS",
+			"troubleshooting": {
+				"app": "wakanda-typescript-app",
+				"step": 0
+			}
+		},
+		"typescript": {
+			"name": "TypeScript",
+			"text": "Install TypeScript",
+			"command": "tsc -v",
+			"troubleshooting": {
+				"app": "wakanda-typescript-app",
+				"step": 1
+			}
+		}
+	}
+}

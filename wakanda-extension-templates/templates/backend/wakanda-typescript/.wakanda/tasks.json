@@ -1,0 +1,45 @@
+[
+  {
+    "taskName": "start",
+    "title": "Run Backend",
+    "type": "aggregate",
+    "dependencies": [
+      "transpile",
+      "start-and-watch"
+    ]
+  },
+  {
+    "taskName": "transpile",
+    "title": "TypeScript -> JavaScript",
+    "type": "command",
+    "options": {
+      "command": "tsc"
+    }
+  },
+  {
+    "taskName": "start-and-watch",
+    "title": "Run & Watch",
+    "type": "aggregate",
+    "noWaitForEnd" : true,
+    "dependencies": [
+      "watch",
+      "start-wakanda"
+    ]
+  },
+  {
+    "taskName": "watch",
+    "title": "Watching for file changes",
+    "type": "command",
+    "options": {
+      "command": "tsc --watch"
+    }
+  },
+  {
+    "taskName": "start-wakanda",
+    "title": "Running Wakanda Server",
+    "type": "wakanda",
+    "options": {
+      "command": "startServer"
+    }
+  }
+]
